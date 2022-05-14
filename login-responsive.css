@@ -1,0 +1,23 @@
+@media only screen and (max-width: 980px){
+    .right-side {
+        margin-top: 6%;
+        
+    }
+    .right-side .copy-right {
+        margin-top: 24%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .right-side {
+        margin-top: 8%;
+        margin-bottom: 0%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .right-side .writing .facebook-option {
+        margin: 0 auto;
+    }
+    .right-side .copy-right {
+        margin-top: 20%;
+    }
+}

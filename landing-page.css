@@ -1,0 +1,405 @@
+body{
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Inter', sans-serif;
+
+}
+
+.custom-container{
+    width: 80%;
+    margin: auto;
+}
+
+
+/* header-area-start-here ---------- */
+
+.header-shadow{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.header-area{
+    padding-bottom: 70px;
+    overflow: hidden;    
+    background: url("./banner-Vector.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.header-shadow::after{
+    content: '';
+    height: 100%; 
+    width: 100%; 
+    background: rgb(250, 249, 249);
+    position: absolute;
+    left: 0; 
+    top: 0; 
+    z-index: -1;
+}
+
+
+/* menu-area ----------------- */
+
+.menu-area{
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.logo-area{
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+
+.logo-area a img{
+    width: 215px;
+}
+
+.menu-account{
+    display: flex;
+    float: right;
+    margin-top: 15px;
+
+}
+
+.bars{
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.bars img{
+    width: 20px; 
+    margin-right: 50px; 
+}
+
+.account{
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 30px;
+    transition: .2s;
+    background: #fff;
+}
+.account:hover{
+    border: 1px solid #00778B;
+}
+
+.account a{
+    text-decoration: none;
+    color: #000;
+}
+
+.account img{
+    width: 25px;
+}
+.account span{
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+/* menu-area-end ----- */
+
+/* banner-area-start-here -------*/
+
+.banner-area{
+    padding-top: 60px;
+
+}
+
+.banner-content{
+    width: 45%;
+    float: left;
+    overflow: hidden;
+}
+.banner-img{
+    width: 55%;
+    float: right;
+}
+.banner-img img{
+    width: 100%;
+    margin-top: -90px;
+}
+
+.banner-content h2{
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #000;
+}
+.banner-content h2 span{
+    font-weight: 700;
+    color: #02697b;
+}
+
+.banner-content p{
+    font-size: 25px;
+    color: #6B7280; 
+    font-weight: 400;
+    line-height: 45px;
+    margin-top: 20px;
+}
+
+.banner-content a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background: #02697b;
+    border: 2px solid #02697b;
+    border-radius: 30px;
+    padding: 9px 20px; 
+    display: inline-block;
+    transition: .2s;
+    font-weight: 500;
+}
+
+.banner-content a:hover{
+    background: #014a57;
+    border: 2px solid #014a57;
+
+}
+
+.banner-content a i{
+    transform: rotate(56deg);
+    margin-left: 10px;
+    
+}
+
+
+.header-bg{
+
+}
+.header-bg img{
+    width: 100%;
+    margin-top: -150px;
+    z-index: -1;
+}
+
+/* header-area-end-here ---------- */
+
+
+
+
+
+
+/* facebook-group-area-start-here ------ */
+.facebook-group-area{
+    padding: 40px 0 0 0; 
+}
+
+.group-title{
+    text-align: center;
+}
+.group-title img{
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.group-title h2{
+    font-size: 36px;
+    margin-top: -30px;
+    line-height: 50px;
+    font-weight: 500;
+    color: #000;
+}
+
+.group-title h2 span{
+    font-weight: 600;
+}
+
+
+.group-link{
+    margin-top: 30px;
+
+}
+.group-link img{
+    width: 100%; 
+}
+
+
+.group-banner{    
+    background: url("./banner-2-vector.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 80px;
+}
+.group-banner-area{
+    overflow: hidden;
+}
+.group-banner img{
+    margin-top: -130px;
+    width: 90%;
+}
+
+/* facebook-group-area-end-here ------ */
+
+
+
+/* faq-area-start-here ----------*/
+
+.faq-area{
+    background: #F9F9F9;
+    padding: 100px 0; 
+    overflow: hidden;
+}
+
+.faq p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #6f6f6f;
+}
+
+.faq-list-area{
+    width: 60%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.single-faq{
+    margin-bottom: 20px;
+}
+
+.faq-title{
+    cursor: default;
+    border: 1px solid #E5E7EB;
+    padding: 10px 20px;
+    background: #fff;
+    overflow: hidden;
+    transition: .2s;
+    border-radius: 4px;
+    user-select: none;
+}
+
+.faq-title:hover{
+    background: #00778B;
+    border: 1px solid #00778B;
+    color: #fff; 
+}
+.active{
+    background: #00778B;
+    border: 1px solid #00778B;
+    color: #fff; 
+}
+
+.faq-title h3{
+    font-size: 17px;
+    margin: 0; 
+    padding: 0;
+    float: left;
+}
+.faq-title i{
+    float: right;
+}
+
+.faq-content{
+    cursor: default;
+    border: 1px solid #E5E7EB;
+    padding: 10px 20px;
+    background: #fff;
+    overflow: hidden;
+    display: none;
+}
+
+.faq-content-2{
+    display: block;
+}
+
+.faq-content article{
+    font-size: 16px;
+    color: #6B7280;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+/* faq-area-end-here ----------*/
+
+
+
+
+/* footer-area-start-here ----------- */
+.footer-area{
+    background: url("footer-banner.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 60px;
+}
+.footer-content{
+    text-align: center;
+}
+
+.footer-logo img{
+    width: 90px;
+    margin-top: -45px;
+    margin-bottom: 30px;
+}
+
+.footer-title h3{
+    color: #fff; 
+    font-size: 32px; 
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.browser{
+}
+
+.chorom-bro, 
+.edge-bro{
+    display: inline-block;
+}
+.chorom-bro img, 
+.edge-bro img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.chorom-bro a, 
+.edge-bro a{
+    text-decoration: none;
+    color: #1F2A37;
+    background: #fff;
+    display: inline-block;
+    padding: 8px 24px; 
+    border-radius: 30px;
+    font-size: 16px;
+    border: 1px solid #fff;
+    transition: .2s;
+}
+
+.chorom-bro a:hover{
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+.edge-bro a:hover{
+    border: 1px solid #fff;
+    background: #fff;
+    color: #1F2A37;
+}
+
+.edge-bro a{
+    background: transparent;
+    color: #fff;
+}
+
+.chorom-bro{
+    border-right: 1px dotted #fff;
+    padding-right: 30px
+}
+.edge-bro{
+    padding-left: 30px;
+}
+
+.copyright p{
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    font-weight: 400;
+    cursor: default;
+}
+
+/* footer-area-end-here ----------- */

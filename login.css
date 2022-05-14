@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.custom-container{
+    width: 100%;
+    margin: auto;
+}
+
+.full-section{
+
+}
+/*------------------left section ------------------ */
+
+.left-side{
+    background-color: #F5F9FE;
+    padding: 20% 0 20% 0;
+
+}
+.left-side .img img{
+    width: 100%;
+
+}
+/*-------------- left side end------------------ */
+
+/* --------------right side start-------------- */
+.right-side{
+    margin-top: 20%;
+    margin-bottom: 4%;
+    margin-left: 15%;
+}
+.right-side .logo{}
+.right-side .logo img{
+    height: 48px;
+    width: 148px;
+
+
+}
+.right-side .writing{
+    margin-top: 10%;
+}
+.right-side .writing h5{
+    margin-bottom: 5%;
+    font-weight: 600;
+    font-size: 28px;
+}
+.right-side .writing p{
+    margin-bottom: 4%;
+    font-size: 18px;
+}
+.right-side .writing a{
+    text-decoration: none;
+}
+.right-side .writing .facebook-option {
+	width: 280px;
+	display: flex;
+	align-items: center;
+	background-color: #4C6DE3;
+	text-align: center;
+	justify-content: space-around;
+	border-radius: 27px;
+}
+.right-side .writing .facebook-option:hover{
+    background-color: #1542e6;
+    cursor: pointer;
+}
+.right-side .writing .facebook-option i {
+	color: white;
+	margin: 0 6%;
+	font-size: 24px;
+}
+.right-side .writing .facebook-option p {
+	color: white;
+	margin-top: 10px;
+	margin-right: 14px;
+    font-size: 18px;
+}
+.right-side .writing .facebook-option img{
+
+}
+.right-side .writing .log{
+    margin-top:2% ;
+}
+.right-side .writing .log a {
+	text-decoration: none;
+    color: #3F83F8;
+    font-size: 18px;
+
+}
+.right-side .writing .log a:hover{
+    color: #1542e6;
+}
+
+.right-side .copy-right{
+    margin-top: 30%;
+
+}
+.right-side .copy-right p{
+    font-size: 14px;
+    color: #6B7280;
+}
+.right-side .copy-right p span{
+    color: #00778b;
+}
+/*------------------ right side end------------------ */
+
+
+

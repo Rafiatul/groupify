@@ -1,0 +1,447 @@
+@media only screen and (max-width: 1236px) {
+
+    .logo-area a img {
+        width: 168px;
+    }
+
+    .banner-content h2 {
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .banner-content p {
+        font-size: 19px;
+        line-height: 38px;
+        margin-top: 8px;
+    }
+
+    .banner-content a {
+        font-size: 14px;
+        padding: 8px 17px;
+    }
+    .group-title img {
+        width: 100px;
+    }
+
+    .group-title h2 {
+        font-size: 29px;
+        line-height: 45px;
+    }
+    .group-link img {
+        width: 90%;
+    }
+    .faq p {
+        font-size: 15px;
+    }
+
+    .faq-title h3 {
+        font-size: 16px;
+    }
+    .faq-content article {
+        font-size: 15px;
+    }
+    .faq-list-area {
+        width: 76%;
+    }
+    .footer-logo img {
+        width: 79px;
+        margin-top: -44px;
+        margin-bottom: 28px;
+    }
+    .footer-title h3 {
+        font-size: 27px;
+    }
+    .chorom-bro img, .edge-bro img {
+        width: 46px;
+        margin-bottom: 16px;
+    }
+    .chorom-bro a, .edge-bro a {
+        padding: 7px 21px;
+        font-size: 14px;
+    }
+    .copyright p {
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 910px) {
+    .account img {
+        width: 22px;
+    }
+    .account {
+        padding: 3px 10px;
+    }
+    .account span {
+        font-size: 14px;
+    }
+
+    .banner-content h2 {
+        font-size: 26px;
+        line-height: 42px;
+    }
+    .banner-content p {
+        font-size: 16px;
+        line-height: 35px;
+    }
+    .banner-content a {
+        font-size: 12px;
+        padding: 6px 16px;
+    }
+    .banner-content {
+        margin-top: -39px;
+    }
+    .banner-area {
+        padding-top: 66px;
+    }
+
+    .faq-list-area {
+        width: 100%;
+    }
+
+    .faq-area {
+        padding: 60px 0;
+    }
+
+    .group-title h2 {
+        font-size: 26px;
+        line-height: 41px;
+    }
+    .group-title img {
+        width: 88px;
+    }
+    .group-banner {
+        padding-top: 100px;
+    }
+    .group-link img {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 766px) {
+    .footer-logo img {
+        width: 67px;
+        margin-top: -38px;
+        margin-bottom: 19px;
+    }
+    .footer-area {
+        padding-bottom: 36px;
+    }
+
+    .footer-title h3 {
+        font-size: 23px;
+    }
+    .chorom-bro img, .edge-bro img {
+        width: 37px;
+    }
+    .chorom-bro a, .edge-bro a {
+        padding: 5px 15px;
+        font-size: 11px;
+    }
+
+    .group-link img {
+        width: 65%;
+        margin-top: 30px;
+    }
+    .group-fill {
+        text-align: center;
+    }
+    .group-link {   
+        width: 82%;
+        margin: auto;
+    }
+
+    .faq-title h3 {
+        font-size: 14px;
+    }
+    .faq-content article {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .copyright p {
+        font-size: 12px;
+    }
+    .banner-content h2 {
+        font-size: 24px;
+        line-height: 39px;
+    }
+    .banner-content p {
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 720px) {
+    .banner-content {
+        width: 70%;
+    }
+    .banner-img {
+        width: 46%;
+    }
+    .banner-img img {
+        width: 100%;
+        margin-top: -311px;
+    }
+    .header-area {
+        padding-bottom: 0;
+    }
+    .logo-area a img {
+        width: 100%;
+    }
+    .bars img {
+        width: 17px;
+        margin-right: 47px;
+    }
+    .account span {
+        font-size: 12px;
+    }
+    .account img {
+        width: 18px;
+    }
+    .faq-title h3 {
+        font-size: 13px;
+    }
+    .faq-content article {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .group-title h2 {
+        font-size: 20px;
+        line-height: 33px;
+    }
+    .group-title img {
+        width: 75px;
+    }
+    .group-link img {
+        width: 75%;
+        margin-top: 20px;
+    }
+    .faq-area {
+        padding: 48px 0;
+    }
+    .faq p {
+        font-size: 12px;
+    }
+    .footer-logo img {
+        width: 55px;
+        margin-top: -30px;
+    }
+    .footer-title h3 {
+        font-size: 17px;
+    }
+    .chorom-bro img, .edge-bro img {
+        width: 28px;
+        margin-bottom: 12px;
+    }
+    .chorom-bro a, .edge-bro a {
+        font-size: 10px;
+    }
+    .copyright p {
+        font-size: 11px;
+    }
+}
+
+
+@media only screen and (max-width: 574px) {
+    .banner-content h2 {
+        font-size: 21px;
+        line-height: 34px;
+    }
+    .banner-content p {
+        font-size: 13px;
+        line-height: 28px;
+    }
+    .banner-content a {
+        font-size: 11px;
+        padding: 6px 14px;
+    }
+    .group-link img {
+        width: 43%;
+        margin-top: 3px;
+    }
+    .group-title img {
+        width: 69px;
+    }
+    .group-title h2 {
+        font-size: 17px;
+        line-height: 29px;
+    }
+
+    .facebook-group-area {
+        padding: 15px 0 0 0;
+    }
+    .group-banner {
+        padding-top: 112px;
+        padding-bottom: 50px;
+        margin-top: 60px;
+    }
+    .faq-title h3 {
+        font-size: 12px;
+    }
+    .footer-logo img {
+        width: 44px;
+        margin-top: -23px;
+    }
+    .footer-title h3 {
+        font-size: 15px;
+        padding-bottom: 12px;
+    }
+    .chorom-bro a, .edge-bro a {
+        font-size: 9px;
+    }
+    .footer-area {
+        padding-bottom: 26px;
+    }
+    .faq-area {
+        padding: 40px 0;
+    }
+    .faq-title i {
+        font-size: 13px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .menu-account {
+        margin-top: 5px;
+    }
+    .banner-area {
+        padding-top: 45px;
+    }
+    .banner-content h2 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .banner-content p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .banner-img img {
+        width: 93%;
+        margin-top: -275px;
+        margin-left: 35px;
+    }
+    .banner-content a {
+        font-size: 10px;
+        padding: 6px 14px;
+    }
+    .bars img {
+        width: 17px;
+        margin-right: 28px;
+    }
+    .faq-title {
+        padding: 10px 10px;
+    }
+    .faq-content {
+        padding: 10px 10px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .account {
+        padding: 1px 9px 3px 9px;
+    }
+    .account span {
+        font-size: 11px;
+    }
+    .account img {
+        width: 15px;
+    }
+    .bars img {
+        width: 16px;
+        margin-right: 26px;
+    }
+    .menu-account {
+        margin-top: 0px;
+    }
+    .group-title h2 {
+        font-size: 15px;
+        line-height: 24px;
+        padding-top: 10px;
+    }
+    .group-title img {
+        width: 60px;
+    }
+    .group-banner {
+        padding-top: 98px;
+        padding-bottom: 25px;
+        margin-top: 32px;
+    }
+    .faq-title i {
+        font-size: 12px;
+    }
+    .footer-title h3 {
+        font-size: 14px;
+        padding-bottom: 0;
+    }
+    .chorom-bro a, .edge-bro a {
+        font-size: 8px;
+    }
+    .chorom-bro img, .edge-bro img {
+        margin-bottom: 8px;
+    }
+    .chorom-bro a, .edge-bro a {
+        padding: 3px 10px;
+        font-size: 11px;
+    }
+    .footer-area {
+        padding-bottom: 23px;
+    }
+    .footer-logo img {
+        width: 39px;
+        margin-top: -20px;
+    }
+    .copyright p {
+        font-size: 10px;
+        padding: 5px 0;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .banner-content p {
+        font-size: 11px;
+        line-height: 22px;
+    }
+    .banner-img img {
+        width: 89%;
+        margin-top: -263px;
+        margin-left: 46px;
+    }
+    .banner-content h2 {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .menu-area {
+        padding: 30px 0;
+        overflow: hidden;
+    }
+    .banner-area {
+        padding-top: 58px;
+    }
+    .banner-content a {
+        font-size: 10px;
+        padding: 5px 13px;
+    }
+    .chorom-bro {
+        padding-right: 14px;
+    }
+    .edge-bro{
+        padding-left: 14px;
+    }
+    .bars img {
+        width: 13px;
+        margin-right: 26px;
+    }
+    .account span {
+        font-size: 10px;
+        margin-left: 3px;
+    }
+    .menu-account {
+        margin-top: -4px;
+    }
+    .custom-container {
+        width: 83%;
+        margin: auto;
+    }
+}
+
